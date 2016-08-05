@@ -1,6 +1,6 @@
 def roman_numeral num
-thousand = (num / 1000)
-hundreds = (num % 1000 / 100)
+thous = (num / 1000)
+hunds = (num % 1000 / 100)
 tens = (num % 100 / 10)
 ones = (num % 10 )
 roman = 'M' * thous
